@@ -1,4 +1,8 @@
-
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+'''
+@Desc :bleu指标
+'''
 import jieba
 import re
 import logging
