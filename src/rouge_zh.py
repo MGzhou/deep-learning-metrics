@@ -1,4 +1,8 @@
-
+#!/usr/bin/env python
+# -*- coding:utf-8 -*-
+'''
+@Desc :rouge指标
+'''
 from rouge import Rouge
 import jieba
 import re
