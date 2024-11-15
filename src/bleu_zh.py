@@ -89,7 +89,7 @@ def bleu_zh(
                 for reference in reference_:
                     reference = cut_sentence(reference, lowercase) if use_jieba else list(reference.lower() if lowercase else reference)
                     temp_reference_.append(reference)
-                candidate = cut_sentence(candidate, lowercase) if use_jieba else list(reference.lower() if lowercase else reference)
+                candidate = cut_sentence(candidate, lowercase) if use_jieba else list(candidate.lower() if lowercase else candidate)
                 temp_references.append(temp_reference_)
                 temp_candidates.append(candidate)
         else:
